@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'AlexBrush-Regular';
+    src: url('AlexBrush-Regular.ttf') format('truetype')  
+     
+         
+}
+body{
+    font-family: Helvetica, Arial,  sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    padding: 40px;
+    background-image: url("image/mable.png");
+    background-attachment: fixed; /* The background will remain fixed */
+    color: black;
+}
+h1 {
+    text-align: center;
+    text-decoration: solid;
+    color: lightcoral;
+}
+#quote {
+    font-size: 25px;
+    font-family: 'AlexBrush-Regular';
+    background-color: navy;
+    opacity: 0.6;
+    color: white;
+    box-shadow: 6px 6px 0px navy;
+    font-style: normal;
+    border-radius: 5%;
+
+}
+#right{
+    text-align: right;
+    color: cornflowerblue;    
+}
+a [title="click to enlarge"]{
+    float: right;
+    border-radius: 50px;
+}
+h2{
+    color: lightcoral;
+}
+h3{
+    color: royalblue;
+}
+#experience{
+    float: left;
+    width: 450px;
+}
+#base, #bases {
+    width: 250px;
+    display: inline-block;    
+    vertical-align: top;
+    margin: 8px;
+    font-size: small;
+}
+.skills{
+    display: inline-block;
+    vertical-align: top;
+    }
+   
